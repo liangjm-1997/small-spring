@@ -13,13 +13,12 @@ import org.junit.Test;
  */
 public class ApiTest {
     @Test
-    public void  test1(){
+    public void test1(){
         BeanDefinition beanDefinition = new BeanDefinition(new UserService());
         BeanFactory beanFactory = new BeanFactory();
         beanFactory.registerBeanDefinition("userService",beanDefinition);
         UserService userService = (UserService) beanFactory.getBean("userService");
         userService.queryUserInfo();
-
     }
 
 }
