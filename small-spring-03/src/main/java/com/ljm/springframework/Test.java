@@ -1,4 +1,4 @@
-package com.ljm.springframework;
+package ljm.springframework;
 
 /**
  * @Auther: liangjm
